@@ -1,0 +1,15 @@
+Description: Include missing <memory>
+Author: Z8MAN8 <1468559561@qq.com>
+--- a/src/drvpptx.cpp
++++ b/src/drvpptx.cpp
+@@ -65,6 +65,10 @@
+ 
+ #include <zip.h>
+ 
++#if __GNUC__ > 11
++#include <memory>
++#endif
++
+ #ifdef _MSC_VER
+ // MS VC++ Windows
+ // handle this warning: 
