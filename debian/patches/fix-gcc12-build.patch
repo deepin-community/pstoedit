@@ -1,0 +1,12 @@
+Description: Include missing <memory>
+Author: Z8MAN8 <1468559561@qq.com>
+--- a/src/drvpptx.cpp
++++ b/src/drvpptx.cpp
+@@ -64,6 +64,7 @@
+ #define ZIP_EXTERN extern
+ 
+ #include <zip.h>
++#include <memory>
+ 
+ #ifdef _MSC_VER
+ // MS VC++ Windows
