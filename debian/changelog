@@ -1,3 +1,9 @@
+pstoedit (3.73-1-deepin1) unstable; urgency=medium
+
+  * Fix build on RISCV
+
+ -- Z8MAN8 <1468559561@qq.com>  Tue, 29 Nov 2022 13:20:27 +0000
+
 pstoedit (3.73-1) unstable; urgency=medium
 
   * new upstream version
