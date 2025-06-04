@@ -1,3 +1,10 @@
+pstoedit (4.00-1deepin1) unstable; urgency=medium
+
+  * Reapply patch from hudeng:
+    + add sw64 support.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Thu, 04 Sep 2025 22:49:28 +0800
+
 pstoedit (4.00-1) unstable; urgency=medium
 
   * Update standards version to 4.6.2, no changes needed.
