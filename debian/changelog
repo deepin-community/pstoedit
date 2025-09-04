@@ -1,14 +1,25 @@
-pstoedit (3.77-1deepin2) unstable; urgency=medium
+pstoedit (4.00-1) unstable; urgency=medium
 
-  * feat: add sw64 support.
+  * Update standards version to 4.6.2, no changes needed.
+  * Merge janitor removal of obsolete version constraints.
+  * New upstream release
+  * Adjust packaging scripts
 
- -- hudeng <hudeng@deepin.org>  Wed, 04 Jun 2025 10:47:49 +0800
+ -- Barak A. Pearlmutter <bap@debian.org>  Thu, 15 Jun 2023 14:56:49 +0100
 
-pstoedit (3.77-1deepin1) unstable; urgency=medium
+pstoedit (3.78-2) unstable; urgency=medium
 
-  * Fix build with GCC 12
+  * quilt patch to #include <memory> (closes: #1013018)
+  * bump policy
 
- -- Clansty <i@gao4.pw>  Mon, 09 Jan 2023 18:29:14 +0800
+ -- Barak A. Pearlmutter <bap@debian.org>  Tue, 20 Sep 2022 19:39:23 +0100
+
+pstoedit (3.78-1) unstable; urgency=medium
+
+  * New upstream release
+  * Spelling patch upstreamed, delete
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Tue, 23 Nov 2021 08:55:51 +0000
 
 pstoedit (3.77-1) unstable; urgency=medium
 
